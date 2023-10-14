@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @RequestMapping("/hello")
     public String index() {
-        return "Hello, SpringBoot World！";
+        return "Hello, Git Version Control";
     }
 }
